@@ -21,7 +21,7 @@ export const viewport: Viewport = {
 
 export const metadata: Metadata = {
   title: 'AI.TELIER - Sign In',
-  description: 'Welcome to AI.TELIER - Your luxury fashion AI atelier',
+  description: 'Welcome to AI.TELIER - AI Pattern Generation',
   generator: 'v0.app',
   icons: {
     icon: [

@@ -27,7 +27,7 @@ export default function AuthPage() {
         className="mt-10 text-[10px] tracking-[0.3em] uppercase"
         style={{ color: "rgba(139,26,26,0.3)" }}
       >
-        Luxury Fashion AI
+        AI Pattern Generation
       </p>
     </main>
   )
