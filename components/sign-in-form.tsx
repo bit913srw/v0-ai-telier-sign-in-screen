@@ -21,7 +21,7 @@ export function SignInForm({ onSwitchTab }: SignInFormProps) {
         className="font-script text-4xl sm:text-5xl mb-2"
         style={{ color: "#F0EDE8" }}
       >
-        Welcome back
+        Welcome Back
       </p>
 
       <div className="flex flex-col gap-1.5">
