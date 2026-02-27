@@ -1,5 +1,5 @@
 import type { Metadata, Viewport } from 'next'
-import { Cormorant_Garamond, Lato, Italianno } from 'next/font/google'
+import { Cormorant_Garamond, Lato, Pinyon_Script } from 'next/font/google'
 import { Analytics } from '@vercel/analytics/next'
 import './globals.css'
 
@@ -15,7 +15,7 @@ const lato = Lato({
   variable: "--font-lato",
 });
 
-const italianno = Italianno({
+const pinyonScript = Pinyon_Script({
   subsets: ["latin"],
   weight: ["400"],
   variable: "--font-script",
@@ -54,7 +54,7 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html lang="en" className={`${cormorant.variable} ${lato.variable} ${italianno.variable}`}>
+    <html lang="en" className={`${cormorant.variable} ${lato.variable} ${pinyonScript.variable}`}>
       <body className="font-sans antialiased">
         {children}
         <Analytics />
