@@ -1,5 +1,5 @@
 import type { Metadata, Viewport } from 'next'
-import { Cormorant_Garamond, Lato } from 'next/font/google'
+import { Cormorant_Garamond, Lato, Italianno } from 'next/font/google'
 import { Analytics } from '@vercel/analytics/next'
 import './globals.css'
 
@@ -13,6 +13,12 @@ const lato = Lato({
   subsets: ["latin"],
   weight: ["300", "400", "700"],
   variable: "--font-lato",
+});
+
+const italianno = Italianno({
+  subsets: ["latin"],
+  weight: ["400"],
+  variable: "--font-script",
 });
 
 export const viewport: Viewport = {
@@ -48,7 +54,7 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html lang="en" className={`${cormorant.variable} ${lato.variable}`}>
+    <html lang="en" className={`${cormorant.variable} ${lato.variable} ${italianno.variable}`}>
       <body className="font-sans antialiased">
         {children}
         <Analytics />
