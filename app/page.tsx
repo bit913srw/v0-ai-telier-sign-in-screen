@@ -24,7 +24,7 @@ export default function AuthPage() {
 
       {/* Footer text */}
       <p
-        className="mt-10 text-[10px] tracking-[0.3em] uppercase"
+        className="absolute bottom-6 text-[10px] tracking-[0.3em] uppercase"
         style={{ color: "rgba(139,26,26,0.3)" }}
       >
         AI Pattern Generation
