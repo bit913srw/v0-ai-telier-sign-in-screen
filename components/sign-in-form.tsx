@@ -18,7 +18,7 @@ export function SignInForm({ onSwitchTab }: SignInFormProps) {
   return (
     <form onSubmit={handleSubmit} className="flex flex-col gap-5">
       <p
-        className="font-script text-4xl sm:text-5xl mb-2"
+        className="font-script text-4xl sm:text-5xl mb-6"
         style={{ color: "#F0EDE8" }}
       >
         Welcome Back
